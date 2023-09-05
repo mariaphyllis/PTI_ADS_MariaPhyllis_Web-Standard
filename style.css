@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'arial';
+    src: local('arial');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    max-width: 992px;
+    min-width: 320px;
+    width: 100%;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.colunm{
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.side-bar{
+    align-items: center;
+    background-color: #e60000;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 500px;
+    margin-top: 10px;
+    max-height: 500px;
+    max-width: 200px;
+    padding: 10px;
+    width: 100%;
+}
+
+.side-bar-item{
+    margin: 5px;
+}
+
+.img-side-bar{
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.logo{
+    max-width: 50px; 
+}
+
+.curriculo{
+    display: flex;
+    align-items: center;
+    background-color: #ece90d;
+    border: solid 1px;
+    border-radius: 10px;
+    height: 500px;
+    margin: 10px;
+    margin-right: 0;
+    max-height: 500px;
+    max-width: 792px;
+    padding: 10px;
+    width: 100%;
+}
+
+.cv-content{
+    font-size: 18px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.cv-content-items{
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.text-justify{
+    text-align: justify; 
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.cv-conhecimentos{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.cv-conhecimentos-item{
+    padding: 5px;
+    margin: 5px;
+}
+
+.projetos{
+    background-color: rgb(77, 231, 38);
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.projetos-card-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    max-width: 992px;
+    max-height: 500px;
+    padding: 10px;
+    width: 992px;
+}
+
+.projeto-card{
+    align-items: center;
+    background-color: #3330f1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    height: 220px;
+    margin: 10px;
+    max-width: 400px;
+    max-height: 220px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 400px;
+}
+
+.img-card{
+    max-width: 150px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.mt-2{
+    margin-top: 2px;
+}
